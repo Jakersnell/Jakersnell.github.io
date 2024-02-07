@@ -31764,19 +31764,19 @@ var _HomeComponent = class _HomeComponent {
 _HomeComponent.\u0275fac = function HomeComponent_Factory(t) {
   return new (t || _HomeComponent)();
 };
-_HomeComponent.\u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HomeComponent, selectors: [["app-home"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 10, vars: 1, consts: [["id", "home-badges", 1, "d-flex", "justify-content-center", "d-xl-block"], [1, "d-block", "d-xl-flex", "justify-content-between"], [1, "home-square-button", "d-flex", "justify-content-center"], ["id", "headshot-outline", "src", "assets/img/outline.png", "alt", "Button with an outline of a picture of me. This goes to my about page.", 3, "routerLink"], [1, "mobile-spacer"], ["id", "github-logo", "src", "assets/img/github.png", "alt", "Button with the Github cat logo. This links to my github."], ["id", "linkedin-logo", "src", "assets/img/linkedin.png", "alt", "Button with the linkedin logo. This links to my linkedin profile."]], template: function HomeComponent_Template(rf, ctx) {
+_HomeComponent.\u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HomeComponent, selectors: [["app-home"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 12, vars: 1, consts: [["id", "home-badges", 1, "d-flex", "justify-content-center", "d-xl-block"], [1, "d-block", "d-xl-flex", "justify-content-between"], [1, "home-square-button", "d-flex", "justify-content-center"], ["id", "headshot-outline", "src", "assets/img/outline.png", "alt", "Button with an outline of a picture of me. This goes to my about page.", 3, "routerLink"], [1, "mobile-spacer"], ["target", "_blank", "href", "https://github.com/Jakersnell"], ["id", "github-logo", "src", "assets/img/github.png", "alt", "Button with the Github cat logo. This links to my github."], ["target", "_blank", "href", "https://www.linkedin.com/in/jake-snell-016684242/"], ["id", "linkedin-logo", "src", "assets/img/linkedin.png", "alt", "Button with the linkedin logo. This links to my linkedin profile."]], template: function HomeComponent_Template(rf, ctx) {
   if (rf & 1) {
     \u0275\u0275elementStart(0, "div", 0)(1, "div", 1)(2, "div", 2);
     \u0275\u0275element(3, "img", 3);
     \u0275\u0275elementEnd();
     \u0275\u0275element(4, "div", 4);
-    \u0275\u0275elementStart(5, "div", 2);
-    \u0275\u0275element(6, "img", 5);
-    \u0275\u0275elementEnd();
-    \u0275\u0275element(7, "div", 4);
-    \u0275\u0275elementStart(8, "div", 2);
-    \u0275\u0275element(9, "img", 6);
-    \u0275\u0275elementEnd()()();
+    \u0275\u0275elementStart(5, "a", 5)(6, "div", 2);
+    \u0275\u0275element(7, "img", 6);
+    \u0275\u0275elementEnd()();
+    \u0275\u0275element(8, "div", 4);
+    \u0275\u0275elementStart(9, "a", 7)(10, "div", 2);
+    \u0275\u0275element(11, "img", 8);
+    \u0275\u0275elementEnd()()()();
   }
   if (rf & 2) {
     \u0275\u0275advance(3);
@@ -54523,7 +54523,7 @@ var _NavbarComponent = class _NavbarComponent {
 _NavbarComponent.\u0275fac = function NavbarComponent_Factory(t) {
   return new (t || _NavbarComponent)(\u0275\u0275directiveInject(Router), \u0275\u0275directiveInject(ActivatedRoute));
 };
-_NavbarComponent.\u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _NavbarComponent, selectors: [["app-navbar"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 6, vars: 3, consts: [[1, "navbar", "navbar-expand-xl", "mb-3"], [1, "container-fluid"], [1, "brand", 3, "routerLink"], ["type", "button", 1, "navbar-toggler", 3, "click"], [1, "collapse", "navbar-collapse", 3, "ngbCollapse"], [1, "navbar-nav", "ms-xl-auto"], [1, "nav-item"], ["routerLinkActive", "active-link", "ariaCurrentWhenActive", "page", 1, "nav-link", 3, "routerLink", "click"], ["href", "https://github.com/Jakersnell", 1, "nav-link", 3, "click"], ["href", "https://www.linkedin.com/in/jake-snell-016684242/", 1, "nav-link", 3, "click"]], template: function NavbarComponent_Template(rf, ctx) {
+_NavbarComponent.\u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _NavbarComponent, selectors: [["app-navbar"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 6, vars: 3, consts: [[1, "navbar", "navbar-expand-xl", "mb-3"], [1, "container-fluid"], [1, "brand", 3, "routerLink"], ["type", "button", 1, "navbar-toggler", 3, "click"], [1, "collapse", "navbar-collapse", 3, "ngbCollapse"], [1, "navbar-nav", "ms-xl-auto"], [1, "nav-item"], ["routerLinkActive", "active-link", "ariaCurrentWhenActive", "page", 1, "nav-link", 3, "routerLink", "click"], ["target", "_blank", "href", "https://github.com/Jakersnell", 1, "nav-link", 3, "click"], ["target", "_blank", "href", "https://www.linkedin.com/in/jake-snell-016684242/", 1, "nav-link", 3, "click"]], template: function NavbarComponent_Template(rf, ctx) {
   if (rf & 1) {
     \u0275\u0275elementStart(0, "nav", 0)(1, "div", 1)(2, "nav")(3, "div", 2);
     \u0275\u0275text(4);
