@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/navbar/navbar.component.css"],
+  "sourcesContent": [".brand {\n  cursor: pointer;\n  margin-top: 2vh;\n  margin-left: 4vh;\n  font-size: 6vh;\n  border-bottom: 0.5vh solid #1C97D2;\n}\n\n.nav-item {\n  display: flex;\n  justify-content: end;\n  margin-right: 5vh;\n  font-size: 3vh;\n}\n\n.nav-link {\n  color: rgb(208, 208, 208);\n}\n\n.active-link {\n  display: none;\n}\n"],
+  "mappings": ";AAAA,CAAC;AACC,UAAQ;AACR,cAAY;AACZ,eAAa;AACb,aAAW;AACX,iBAAe,MAAM,MAAM;AAC7B;AAEA,CAAC;AACC,WAAS;AACT,mBAAiB;AACjB,gBAAc;AACd,aAAW;AACb;AAEA,CAAC;AACC,SAAO,IAAI,GAAG,EAAE,GAAG,EAAE;AACvB;AAEA,CAAC;AACC,WAAS;AACX;",
+  "names": []
+}
